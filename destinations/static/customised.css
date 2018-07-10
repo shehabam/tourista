@@ -5,10 +5,16 @@ background: linear-gradient(to bottom, #D39D38, #4DA0B0); /* W3C, IE 10+/ Edge, 
 
 }
 .card {
-background-color: #4DA0B0;  /* fallback for old browsers */
-background-color: -webkit-linear-gradient(to bottom, #D39D38, #4DA0B0);  /* Chrome 10-25, Safari 5.1-6 */
-background-color: linear-gradient(to bottom, #D39D38, #4DA0B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-color: rgba(180, 180, 180, 0.2);
 margin-bottom: 5px;
+}
+.card-title {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+}
+a:hover{
+    text-decoration: none;
 }
 .card-text {
     padding-bottom: 10px;
@@ -25,35 +31,66 @@ margin-bottom: 5px;
 #id_optimal_visiting_season{
     border: 1px solid black
 }
+.btn {
+    margin-bottom: 20px;
+}
+.btn-danger {
+
+}
 h5 {
-    color: black;
+    color: white;
     font-family: 'Chela One', cursive;
+    font-weight: bold;
+    font-size: 23px
 }
 .card-text {
     color: white;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 19px
 }
 .lead {
 
 }
 img {
-    margin-top: 20px
+    margin-top: 20px;
+}
+.navbar-brand{
+    color: black;
+}
+.nav-link{
+    color: black
+}
+.navbar-brand:hover{
+    color: skyblue
+}
+.nav-link:hover{
+    color: skyblue
 }
 #pic {
     width: 90%;
 }
 .lead {
     color: white;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 19px
 }
 .h1 {
     color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 
 }
 .h3 {
     color: white;
     text-transform: uppercase;
+
+}
+h4 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
 
 }

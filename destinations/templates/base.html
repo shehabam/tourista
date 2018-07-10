@@ -7,12 +7,12 @@
 
   <!-- Add a link to the bootstrap CDN here -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/1.0/css/imagehover.min.css">
 
   <!-- Uncomment the following line to include your custom CSS file -->
-
-    <link rel="stylesheet" type="text/css" href="{% static 'custom.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'customised.css' %}">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 
   <title>{% block title %}{% endblock title %}</title>
@@ -21,7 +21,7 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-transparent">
     <a class="navbar-brand" href="{% url 'destination-list' %}">Tourista</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
