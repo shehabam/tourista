@@ -6,7 +6,7 @@
 {% block content %}
 <form action="{% url 'destination-update' destination_obj.id %}" method="POST" enctype="multipart/form-data">
   {% csrf_token %}
-  {{form.as_p}}
-  <input type="submit" value="Update">
+  {{form|crispy}}
+  <button class="btn btn-secondary" type="submit">Create</button>
 </form>
 {% endblock content %}

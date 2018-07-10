@@ -1,0 +1,60 @@
+body {
+    background: #4DA0B0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #D39D38, #4DA0B0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #D39D38, #4DA0B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.card {
+    background-color: #4DA0B0;  /* fallback for old browsers */
+background-color: -webkit-linear-gradient(to bottom, #D39D38, #4DA0B0);  /* Chrome 10-25, Safari 5.1-6 */
+background-color: linear-gradient(to bottom, #D39D38, #4DA0B0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin-bottom: 5px;
+}
+.card-text {
+    padding-bottom: 10px;
+}
+#id_description{
+    border: 1px solid black
+}
+#id_name{
+    border: 1px solid black
+}
+#id_activities{
+    border: 1px solid black
+}
+#id_optimal_visiting_season{
+    border: 1px solid black
+}
+h5 {
+    color: black;
+    font-family: 'Chela One', cursive;
+}
+.card-text {
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 19px
+}
+.lead {
+
+}
+img {
+    margin-top: 20px
+}
+#pic {
+    width: 90%;
+}
+.lead {
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 19px
+}
+.h1 {
+    color: white;
+
+}
+.h3 {
+    color: white;
+    text-transform: uppercase;
+
+}
